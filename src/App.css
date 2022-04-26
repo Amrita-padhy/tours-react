@@ -2,7 +2,56 @@
 margin: 0;
 padding: 0;
 }
+
 body {
-  text-align: center;
+  text-align: center  !important;
+  /* text-align: center; */
   background-color: rgb(229, 245, 240);
+}
+/* .tour-info {
+  background-color: rgba(229, 245, 240,50%);
+} */
+.info {
+  max-width: 1000px;
+  margin: auto;
+  /* white-space: nowrap; */
+  color: rgb(15, 155, 155);
+  margin-bottom: .5rem;
+
+}
+.tour-info {
+  display: flex;
+  justify-content:space-around ;
+  color: rgb(15, 104, 104);
+  margin-bottom: .5rem;
+}
+.readmore_btn {
+  background-color: rgb(11, 11, 145);
+  border: 0px;
+  cursor: pointer;
+  color: whitesmoke;
+  text-transform: capitalize;
+  padding: .5rem;
+  border-radius: .5rem;
+  margin-right: .5rem;
+}
+.delete-btn {
+  background-color:rgb(243, 169, 31) ;
+  border: 0px;
+  cursor: pointer;
+  color: whitesmoke;
+  text-transform: capitalize;
+  padding: .5rem;
+  border-radius: .5rem;
+}
+.refresh {
+  background-color:rgb(27, 206, 27) ;
+  border: 0px;
+  cursor: pointer;
+  color: white;
+  text-transform: uppercase;
+  padding: .5rem;
+  border-radius: .5rem;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: 700;
 }
